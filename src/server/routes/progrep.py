@@ -12,7 +12,7 @@ async def get_progrep_by_client_id(client_id: int):
 
 @router.get('/progrep_by_reservation_id', tags=["Progreps"])
 async def get_progrep_by_reservation_id(reservation_id: int):
-    return("Yeah, this is the ID", client_id)
+    return("Yeah, this is the ID", reservation_id)
 
 @router.post('/progrep', tags=['Progreps'])
 async def create_a_progrep():
