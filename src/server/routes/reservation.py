@@ -11,7 +11,7 @@ async def get_reservation_by_client_id(client_id: int):
     return("Yeah, this is the ID", client_id)
 
 @router.post('/reservation', tags=['Reservations'])
-async def create_a_reservation():
+async def book_a_reservation():
     return("Iyak, berhasil")
 
 @router.put('/reservation', tags=['Reservations'])

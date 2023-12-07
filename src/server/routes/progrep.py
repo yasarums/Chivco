@@ -23,5 +23,5 @@ async def update_a_progrep():
     return("Iyak, keganti")
 
 @router.delete('/progrep', tags=['Progreps'])
-async def cancel_a_progrep():
+async def delete_a_progrep():
     return("Iyak, kehapus")
